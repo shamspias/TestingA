@@ -1,0 +1,210 @@
+/********************************
+    start Media Queries
+*********************************/
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /*****************************
+        Landing Page CSS  
+    *****************************/
+    .col-custom-2 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .header-wrapper nav ul li a {
+        font-size: 12px;
+    }
+    .logo-box {
+        max-width: 180px;
+    }
+    .hero-wrapper {
+        min-height: 1000px;
+    }
+    .hero-left {
+        margin-top: 0;
+        margin-bottom: 40px;
+        padding: 15px;
+    }
+    .auth-container {
+        padding: 40px 20px;
+    }
+    .auth--form-submission {
+        flex-direction: column;
+    }
+    .btn-submission {
+        margin-bottom: 20px;
+    }
+    .service-card {
+        padding: 40px 40px;
+    }
+    .service-card-line ::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 5px;
+        background: #cfcfcf;
+    }
+
+    .section--title-container .section-title {
+        font-size: 25px;
+    }
+    .ocm-height {
+        min-height: 240px;
+    }
+    .strategic--m-card {
+        min-height: 210px;
+    }
+    .footer-landing .logo-box {
+        display: none;
+    }
+    .footer-landing {
+        padding: 15px 0px;
+    }
+    .footer-nav {
+        max-width: 100%;
+    }
+    .footer-nav ul li a {
+        font-size: 13px;
+    }
+    /*****************************
+        End Landing Page CSS  
+    *****************************/
+    /*****************************
+            Sign Up CSS
+    *****************************/
+    .individual--acc-card {
+        padding: 20px 10px;
+    }
+    .acc--type-card {
+        margin-bottom: 20px;
+    }
+    /*****************************
+            End  Sign Up CSS
+    *****************************/
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*****************************
+        Landing Page CSS  
+    *****************************/
+    .col-custom-2 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .logo-box {
+        max-width: 220px;
+    }
+    .auth--form-submission {
+        flex-direction: column;
+    }
+    .btn-submission {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        max-width: 70%;
+    }
+    .footer-nav ul li a {
+        font-size: 12px;
+    }
+
+    /*****************************
+        End Landing Page CSS  
+    *****************************/
+}
+
+/*Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*****************************
+        Landing Page CSS  
+    *****************************/
+    .col-custom-2 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    .logo-box {
+        max-width: 260px;
+    }
+    .hero-wrapper {
+        min-height: 900px;
+    }
+    .hero-left {
+        margin-bottom: 15px;
+    }
+    .service-card {
+        padding: 20px 5px;
+    }
+    .service-card h2 {
+        font-size: 20px;
+    }
+    .service-card p {
+        font-size: 12px;
+    }
+    .footer-nav {
+        max-width: 60%;
+    }
+    /*****************************
+        End Landing Page CSS  
+    *****************************/
+    /*****************************
+            Sign Up CSS
+    *****************************/
+    .mt-10 {
+        margin-top: 1rem;
+    }
+    .individual--account-wrapper {
+        margin-top: 80px;
+    }
+    .indiv--side-content::before {
+        width: 0px;
+    }
+    .video-container {
+        margin-top: 48px;
+    }
+    /*****************************
+            End  Sign Up CSS
+    *****************************/
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*****************************
+        Landing Page CSS  
+    *****************************/
+    .col-custom-2 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .service-card {
+        padding: 40px 15px;
+    }
+    .footer-nav {
+        max-width: 50%;
+    }
+    /*****************************
+        End Landing Page CSS  
+    *****************************/
+    /*****************************
+            Sign Up CSS
+    *****************************/
+    .indiv--side-content h2 {
+        font-size: 22px;
+    }
+    .btn--account-signup {
+        width: 220px;
+    }
+    /*****************************
+            End  Sign Up CSS
+    *****************************/
+}
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+@media (min-width: 1400px) {
+}
+/*******************************
+    End Media Queries
+******************************/
